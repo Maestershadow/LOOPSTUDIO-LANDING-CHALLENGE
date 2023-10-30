@@ -1,0 +1,93 @@
+main
+{
+    display: flex;
+    justify-content: center;
+    padding-block: 4rem;
+}
+
+.main-container-div
+{
+    width: min(var(--content-max-width), 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.interactive-card
+{
+    position: relative;
+    display: flex;
+}
+
+.interactive-card > div:nth-child(1)
+{
+    width: 60%;
+}
+
+.interactive-card > div:nth-child(2)
+{
+    position: absolute;
+    background-color: var(--clr-white);
+    width: 60%;
+    right: 0;
+    bottom: 0;
+    padding: 4.5rem 4.5rem 0 4.5rem;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.interactive-card > div:nth-child(2) > h2
+{
+    font-size: var(--fs-800);
+    letter-spacing: 0.35rem;
+}
+
+.interactive-card > div:nth-child(2) > p
+{
+    font-size: var(--fs-100);
+    line-height: 1.3;
+}
+
+.our-creations
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-creations > h2
+{
+    font-size: var(--fs-800);
+}
+
+
+
+.our-creations  > button
+{
+    font-size: var(--fs-100);
+    border: 1px solid var(--clr-black);
+    padding: 0.6rem 2rem;
+}
+
+.our-creations > button:hover
+{
+    border: transparent;
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+}
+
+.creations-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.image-grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.2rem;
+}
