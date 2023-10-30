@@ -73,7 +73,6 @@ main
 
 .our-creations > button:hover
 {
-    border: transparent;
     background-color: var(--clr-black);
     color: var(--clr-white);
 }
@@ -90,4 +89,29 @@ main
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1.2rem;
+}
+
+.image-div
+{
+    position: relative;
+    color: var(--clr-white);
+    cursor: pointer;
+}
+
+.image-div >img:hover
+{
+    opacity: 0.4;
+}
+
+
+
+
+
+.image-name
+{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    width: 8rem;
+    font-size: var(--fs-500);
 }
