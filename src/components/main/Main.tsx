@@ -41,7 +41,7 @@ export default function Main() {
         {
             "name": "MAKE IT FISHEYE",
             "desktop": "images/desktop/image-fisheye.jpg",
-            "mobile":"images/mobile/image-fisheye.jpg"
+            "mobile": "images/mobile/image-fisheye.jpg"
         }
 
     ]
@@ -59,13 +59,12 @@ export default function Main() {
                 </div>
             </div>
             <div className='creations-container'>
-                <div className="our-creations">
-                    <h2>OUR CREATIONS</h2>
-                    <button>SEE ALL</button>
-                </div>
 
+                <h2>OUR CREATIONS</h2>
+                <button>SEE ALL</button>
+                
                 <div className="image-grid">
-                    {imageData.map((image)=>
+                    {imageData.map((image) =>
                         <div className='image-div'>
                             <img className='desktop-image' src={`${image.desktop}`} alt={`${image.name}`} />
                             <img className='mobile-image' src={`${image.mobile}`} alt={`${image.name}`} />
