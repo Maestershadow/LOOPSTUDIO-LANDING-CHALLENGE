@@ -1,7 +1,7 @@
 .header {
-    height: 33rem;
+    height: 33.5rem;
     width: 100%;
-    background: url('images/desktop/image-hero.jpg');
+    background: url('../../assets/desktop/image-hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -62,6 +62,11 @@
 }
 
 @media (max-width: 43rem) {
+
+    .header {
+        background: url('../../assets/mobile/image-hero.jpg');
+    }
+
     .header-tail {
         font-size: var(--fs-500);
     }
@@ -112,13 +117,4 @@
         display: block;
     }
 
-    .menu-btn[data-visible="false"]>img:first-child,
-    .menu-btn[data-visible="true"]>img:last-child {
-        display: none;
-    }
-
-    .menu-btn[data-visible="true"]>img:first-child,
-    .menu-btn[data-visible="false"]>img:last-child {
-        display: block;
-    }
 }
