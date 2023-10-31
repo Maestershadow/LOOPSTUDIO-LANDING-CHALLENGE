@@ -1,4 +1,5 @@
 import './Footer.css'
+import NavListing from '../common/navListing'
 
 export default function Footer() {
     return <footer>
@@ -8,13 +9,7 @@ export default function Footer() {
                     <img src="images/logo.svg" alt="main logo" />
                 </div>
                 <nav className='footer-nav'>
-                    <ul>
-                        <li>About</li>
-                        <li>Careers</li>
-                        <li>Events</li>
-                        <li>Products</li>
-                        <li>Support</li>
-                    </ul>
+                    <NavListing />
                 </nav>
             </div>
 

@@ -89,3 +89,16 @@ button
   cursor: pointer;
   font-family: var(--ff-alata);
 }
+
+a
+{
+  font-size: inherit;
+  text-decoration: none;
+  color: var(--clr-white);
+}
+
+
+ul {
+  list-style: none;
+}
+

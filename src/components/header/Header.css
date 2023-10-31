@@ -27,14 +27,21 @@
 }
 
 
-ul {
-    list-style: none;
-}
 
 .nav-list>ul {
     display: flex;
     gap: 1rem;
     color: var(--clr-white);
+}
+
+.nav-list > ul > li
+{
+    border-bottom: 1px solid transparent;
+}
+
+.nav-list > ul > li:hover
+{
+    border-bottom: 1px solid white;
 }
 
 

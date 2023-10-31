@@ -63,6 +63,16 @@ footer {
     border-bottom: 1px solid white;
 }
 
+.footer-nav > ul > li
+{
+    border-bottom: 1px solid transparent;
+}
+
+.footer-nav > ul > li:hover
+{
+    border-bottom: 1px solid white;
+}
+
 @media (max-width: 43rem) {
     .footer-container {
         flex-direction: column;

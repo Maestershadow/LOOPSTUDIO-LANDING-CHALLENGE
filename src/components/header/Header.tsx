@@ -1,4 +1,5 @@
 import './Header.css'
+import NavListing from '../common/navListing'
 
 export default function Header() {
     return <header className="header">
@@ -8,13 +9,7 @@ export default function Header() {
                     <img src="images/logo.svg" alt="main logo" />
                 </div>
                 <nav className='nav-list'>
-                    <ul>
-                        <li>About</li>
-                        <li>Careers</li>
-                        <li>Events</li>
-                        <li>Products</li>
-                        <li>Support</li>
-                    </ul>
+                    <NavListing />
                 </nav>
                 <div className="menu-btn" data-visible="false">
                     <img src="images/icon-close.svg" alt="close" />
