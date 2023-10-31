@@ -16,7 +16,12 @@ export default function Header() {
                         <li>Support</li>
                     </ul>
                 </nav>
+                <div className="menu-btn" data-visible="false">
+                    <img src="images/icon-close.svg" alt="close" />
+                    <img src="images/icon-hamburger.svg" alt="close" />
+                </div>
             </div>
+
             <div className='header-tail'>
                 <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
             </div>

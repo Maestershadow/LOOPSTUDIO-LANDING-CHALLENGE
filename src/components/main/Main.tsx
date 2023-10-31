@@ -67,7 +67,8 @@ export default function Main() {
                 <div className="image-grid">
                     {imageData.map((image)=>
                         <div className='image-div'>
-                            <img src={`${image.desktop}`} alt={`${image.name}`} />
+                            <img className='desktop-image' src={`${image.desktop}`} alt={`${image.name}`} />
+                            <img className='mobile-image' src={`${image.mobile}`} alt={`${image.name}`} />
                             <div className='image-name'>
                                 <p>{image.name}</p>
                             </div>
